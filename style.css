@@ -1,25 +1,29 @@
+body{
+    width: 50vw;
+    height: 100vh;
+
+}
 main{
-    width: 1000px;
-    height: 800px;
+    width: 100vw;
+    height: 100vh;
     background-color: hsl(225, 100%, 94%);
 }
 .globalbox{
 background-color: gold;
+width: 50vw;
+height: 50vh;
+
 border-top-left-radius: 30px;
 border-top-right-radius: 30px;
-width: 800px;
 }
 #pic{
 border-top-left-radius: 30px;
 border-top-right-radius: 30px;
-width: 800px;
 }
 .writing{
     background-color:rebeccapurple;
-    width: 800px;
 }
 .order{
-    width: 800px;
     color:yellow
 }
 .like{
@@ -27,6 +31,8 @@ width: 800px;
 }
 .paypanel{
     background-color: cadetblue ;
+    display: flex;
+    flex-direction: column-reverse;
 }
 .annualplan{
     background-color: chartreuse;
