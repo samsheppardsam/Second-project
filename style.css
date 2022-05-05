@@ -1,0 +1,45 @@
+main{
+    width: 1000px;
+    height: 800px;
+    background-color: hsl(225, 100%, 94%);
+}
+.globalbox{
+background-color: gold;
+border-top-left-radius: 30px;
+border-top-right-radius: 30px;
+width: 800px;
+}
+#pic{
+border-top-left-radius: 30px;
+border-top-right-radius: 30px;
+width: 800px;
+}
+.writing{
+    background-color:rebeccapurple;
+    width: 800px;
+}
+.order{
+    width: 800px;
+    color:yellow
+}
+.like{
+    color: aqua;
+}
+.paypanel{
+    background-color: cadetblue ;
+}
+.annualplan{
+    background-color: chartreuse;
+}
+.price{
+    background-color: crimson;
+}
+.changpanel{
+    background-color: coral;
+}
+.orderpanel{
+    background-color: darkgreen;
+}
+.cancelpanel{
+    background-color: deeppink;
+}
