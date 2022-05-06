@@ -1,51 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@400;700&display=swap');
 body{
-    width: 50vw;
-    height: 100vh;
-
-}
+    margin: 0;
+    padding: 0;
+    }
 main{
-    width: 100vw;
-    height: 100vh;
+    font-family: 'Red Hat Display', sans-serif;
+    text-align: center;
+    width: 300px;
+    padding: 30px;
     background-color: hsl(225, 100%, 94%);
+    
 }
 .globalbox{
-background-color: gold;
-width: 50vw;
-height: 50vh;
-
-border-top-left-radius: 30px;
-border-top-right-radius: 30px;
+width: 300px;
+background-color: white;
+border-radius: 20px;
+padding-bottom: 30px;
 }
 #pic{
-border-top-left-radius: 30px;
-border-top-right-radius: 30px;
+width: 300px;
+border-top-left-radius: 20px;
+border-top-right-radius: 20px;
 }
 .writing{
-    background-color:rebeccapurple;
+    background-color: white;
 }
 .order{
-    color:yellow
+    color:hsl(223, 47%, 23%);
+    margin: 15px;
+    font-weight: 700;
+    font-size: 25px ;
 }
 .like{
-    color: aqua;
+    color: hsl(224, 23%, 55%);
 }
 .paypanel{
-    background-color: cadetblue ;
+    border-radius: 0.5rem;
+    background-color: hsl(225, 100%, 98%);
+    margin: 25px 30px;
+    padding: 10px 20px;
     display: flex;
-    flex-direction: column-reverse;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly ;
 }
+.pay{
+}
+
 .annualplan{
-    background-color: chartreuse;
+    column-gap: hsl(223, 47%, 23%);
+    font-weight: 700;
+    font-family: 'Red Hat Display', sans-serif;
 }
 .price{
-    background-color: crimson;
+    color: hsl(224, 23%, 55%);
 }
 .changpanel{
-    background-color: coral;
+    color: hsl(245, 75%, 52%);
+    text-decoration: underline;
+    font-weight: 700;
 }
 .orderpanel{
-    background-color: darkgreen;
+    border-radius: 10px;
+    padding: 1rem;
+    margin: 1rem;
+    background-color: hsl(245, 75%, 52%);
+    color: white;
+    font-weight: 700;
 }
 .cancelpanel{
-    background-color: deeppink;
+    color: hsl(224, 23%, 55%);
+    border-radius: 30px;
+    font-weight: 700;
 }
